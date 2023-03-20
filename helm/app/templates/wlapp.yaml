@@ -8,4 +8,4 @@ spec:
     edition: IBM WebSphere Application Server
     productEntitlementSource: Standalone
   replicas: {{ .Values.app.instances }}
-  applicationImage: my-app:{{ .Values.app.version }}
+  applicationImage: {{ .Values.repository }}:{{ .Values.app.version }}
