@@ -9,3 +9,5 @@ spec:
     productEntitlementSource: Standalone
   replicas: {{ .Values.app.instances }}
   applicationImage: {{ .Values.repository }}:{{ .Values.app.version }}
+  manageTLS: true
+  expose: true
