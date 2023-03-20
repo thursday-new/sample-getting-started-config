@@ -4,7 +4,7 @@ metadata:
   name: app
 spec:
   license:
-    accept: false
+    accept: true
     edition: IBM WebSphere Application Server
     productEntitlementSource: Standalone
   replicas: {{ .Values.app.instances }}
