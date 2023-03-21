@@ -6,4 +6,4 @@ app:
     - name: JVM_ARGS
       value: "-DenvironmentType=stage"
     - name: io_openliberty_sample_system_inMaintenance
-      value: "true"
+      value: "false"
