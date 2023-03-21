@@ -1,9 +1,9 @@
 version: 1.0
 app:
-  instances: 2
+  instances: 1
   version: 500723ca-6e7c-46cd-9876-6eb46c5f0054
   env:
-    - name: ENV_TYPE
-      value: prod
+    - name: JVM_ARGS
+      value: "-DenvironmentType=prod"
     - name: MAX
       value: 5
