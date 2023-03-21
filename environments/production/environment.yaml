@@ -1,4 +1,4 @@
 version: 1.0
 app:
-  instances: 5
+  instances: 2
   version: 1.0
