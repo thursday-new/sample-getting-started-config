@@ -11,5 +11,5 @@ app:
     - path: /opt/ol/wlp/usr/servers/defaultServer/configDropins/overrides/myconfig.xml
       value: |
         <server>
-            <var name="io_openliberty_sample_system_inMaintenance" value="false"/>
+            <var name="io_openliberty_sample_system_inMaintenance" value="true"/>
         </server>
