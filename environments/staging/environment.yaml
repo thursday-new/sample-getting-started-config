@@ -38,7 +38,7 @@ app:
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
   # cloudwatch for metrics
   metrics:
-    enabled: true
+    enabled: false
     cloudwatch:
       arn: arn:aws:logs:region:account-id:destination:destination_name
       metrics:
