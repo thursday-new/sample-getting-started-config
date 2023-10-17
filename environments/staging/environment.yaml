@@ -37,13 +37,11 @@ app:
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
 
-  observability:
-    cloudwatch:
-    #  loggingEnabled: true
-    #  metricsEnabled: true    
-      arn: arn:aws:logs:region:account-id:destination:destination_name
-      logGroup: myLogGroup
-
+  # observability:
+  #  cloudwatch:   
+  #    arn: arn:aws:logs:region:account-id:destination:destination_name
+  #    logGroup: myLogGroup
+  #    region: us-east-1
 
   version: "8a1f5fe6-4cc3-4d26-b00e-98d7a37da4c3"
 # probes
